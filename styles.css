@@ -1,9 +1,12 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+
 /* Main Content Styles */
 .main-content {
     padding: 20px;
 }
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', sans-serif;
     background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
@@ -17,7 +20,7 @@ body {
     padding: 20px; /* Padding inside the wrapper */
     border: 2px solid #ddd; /* Border around the content */
     border-radius: 10px; /* Rounded corners */
-    background-color: #fff; /* Background color */
+    background-color: #000; /* Background color */
 }
 
 /* Search Box Section Styles */
@@ -81,6 +84,20 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+.header h1 {
+    color: #FFF;
+    font-family: system-ui;
+    background: red;
+    text-shadow: #d44 1px 0 5px;
+    margin: 200px;
+    text-align: center;
+}
+.header h3 {
+    color: #FFF;
+    text-align: center;
+    text-shadow: #000 1px 0 5px;
+}
+
 .tag-button:hover {
     background-color: #555555;
     color: white;
@@ -93,7 +110,7 @@ body {
 
 .article-list h2 {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     color: #333;
     margin-bottom: 30px;
 }
@@ -106,12 +123,12 @@ body {
 
 .article-item {
     padding: 20px;
-    background-color: white;
+    background-color: #300;
     border: 2px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 .article-thumb {
@@ -124,13 +141,14 @@ body {
 
 .article-item h3 {
     font-size: 1.4rem;
-    color: #333;
+    color: #D55;
     margin-bottom: 10px;
 }
 
 .excerpt {
     font-size: 1rem;
-    color: #666;
+    color: #AAA;
+    font-weight: bold;
 }
 
 /* Load More button */
